@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head> <title>RegistrationPage</title>
+ <center><h1> Registration Page:</h1></center>
+
+	<style>
+	          input[type="text"]{
+	          	background-color: #d1d1d1;
+	          	border: white;
+	          }   
+	          input[type="email"]{
+	          	background-color: #d1d1d1;
+	          	border: white;
+	          }  
+	          input[type="number"]{
+	          	background-color: #d1d1d1;
+	          	border: white;
+	          }      	
+		       a:link {
+		       text-decoration: none;
+				}
+
+				a:visited {
+				  text-decoration: none;
+				}
+
+				a:hover {
+				  text-decoration: none;
+				}
+
+				a:active {
+				  text-decoration: none;
+				}
+				ul#menu li {
+
+				 display: inline-block;
+
+				}
+				
+				#right{
+					float: right;
+		}
+				ul#menu li {
+
+				 display: inline-block;
+
+				}
+				#menu img{
+
+					width: 40%;
+					height: 40%;
+
+				}
+				div.color{
+					color: white;
+					background-color: black;
+				}
+				body{
+					margin-right: 100px;
+					margin-left: 100px;
+				}
+				
+
+	</style>
+     
+</head>
+
+<body> 
+	<div >
+  	<ul id="menu">
+	  <li><a href="https://www.iiit.ac.in/"><img src="https://www.iiit.ac.in/img/iiit-new.png" alt="HomeImage" ></a></li>
+	  <li id="right"><a href="https://serc.iiit.ac.in/rdip"><h2>RDIP</h2></a></li>
+	  
+	</ul>
+
+  </div>
+
+  <div class="color">
+  	<ul id="menu">
+  	<li><h2 class="color"><a href="./home.html">Home</a></h2></li>
+  	<li><h2 class="color"><a href="./registrationpage.html"><pre> Registration Form</pre></a></h2></li>
+  </ul>
+  </div><br>
+
+ <form action="./details.html" method="get">
+ <b> <pre>First name:         <input type="text" id="fname" name="fname" required></pre>
+  <pre>E-mail:             <input type="email" id="email" name="email" required></pre>
+  <pre>Phone No:           <input type="number" id="phone no" size="12" name="phone no" required></pre>
+  <pre><label for='gender'>Gender:</label >             <input type="radio" id="male" name="gender" value="male"><label for="male">Male</label><input type="radio" id="female" name="gender" value="female"><label for="female">Female</label><input type="radio" id="other" name="gender" value="other"> <label for="other">Other</pre>
+  <pre><label for="reason for rdip">Reason for RDIP:</label>    <input type="checkbox" id="lang1" name="lang1" value="html"><label for="lang1"> HTML</label><input type="checkbox" id="lang2" name="lang2" value="css"><label for="lang2"> CSS</label><input type="checkbox" id="lang3" name="lang3" value=""><label for="lang3">JavaScript</label></pre>
+  <pre><label for="college">College:</label>            <input type="text" id="college" name="college" required></pre>
+  <pre><input type="checkbox" required>            <label for="declare">I declare above details given by me are true.</label></pre>
+  <pre><input type="submit" value="Submit"/>            <input type="reset"></pre><b>
+  </form>
+
+  </body>
+  </html>
